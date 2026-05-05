@@ -1,0 +1,42 @@
+#root {
+  max-width: 1280px;
+  display: flex;
+   flex-flow: column;
+}
+#copybtn {
+  font-size: large;
+}
+
+#menu {
+  top: 0;
+  width: 100%;
+  position: fixed;
+  display: flex;
+  flex-flow: column;
+  height: 250px;
+  background-color: black;
+  .button {
+    font-size: 12px;
+  }
+}
+#title {
+  color: white;
+  font-size:xx-large;
+  font-style: bold;
+  height: 50px;
+  width: 100%;
+}
+
+#pubCodeButtons {
+  padding-top: 10px;
+  display: flex;
+}
+#githubButtons {
+  display: flex;
+}
+#content {
+  display: flex;
+  padding-top: 250px;
+  flex-direction: column;
+    white-space: pre-wrap; /* or pre-line */
+}
